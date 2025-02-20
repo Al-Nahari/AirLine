@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPassenger" targetNamespace="http://tempuri.org/DSPassenger.xsd" xmlns:mstns="http://tempuri.org/DSPassenger.xsd" xmlns="http://tempuri.org/DSPassenger.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPassenger" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPassenger" msprop:Generator_UserDSName="DSPassenger">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InfoPass" msprop:Generator_TableClassName="InfoPassDataTable" msprop:Generator_TableVarName="tableInfoPass" msprop:Generator_TablePropName="InfoPass" msprop:Generator_RowDeletingName="InfoPassRowDeleting" msprop:Generator_RowChangingName="InfoPassRowChanging" msprop:Generator_RowEvHandlerName="InfoPassRowChangeEventHandler" msprop:Generator_RowDeletedName="InfoPassRowDeleted" msprop:Generator_UserTableName="InfoPass" msprop:Generator_RowChangedName="InfoPassRowChanged" msprop:Generator_RowEvArgName="InfoPassRowChangeEvent" msprop:Generator_RowClassName="InfoPassRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameP" msprop:Generator_ColumnVarNameInTable="columnNameP" msprop:Generator_ColumnPropNameInRow="NameP" msprop:Generator_ColumnPropNameInTable="NamePColumn" msprop:Generator_UserColumnName="NameP" type="xs:string" minOccurs="0" />
+              <xs:element name="PassportP" msprop:Generator_ColumnVarNameInTable="columnPassportP" msprop:Generator_ColumnPropNameInRow="PassportP" msprop:Generator_ColumnPropNameInTable="PassportPColumn" msprop:Generator_UserColumnName="PassportP" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressP" msprop:Generator_ColumnVarNameInTable="columnAddressP" msprop:Generator_ColumnPropNameInRow="AddressP" msprop:Generator_ColumnPropNameInTable="AddressPColumn" msprop:Generator_UserColumnName="AddressP" type="xs:string" minOccurs="0" />
+              <xs:element name="NationalityP" msprop:Generator_ColumnVarNameInTable="columnNationalityP" msprop:Generator_ColumnPropNameInRow="NationalityP" msprop:Generator_ColumnPropNameInTable="NationalityPColumn" msprop:Generator_UserColumnName="NationalityP" type="xs:string" minOccurs="0" />
+              <xs:element name="GenderP" msprop:Generator_ColumnVarNameInTable="columnGenderP" msprop:Generator_ColumnPropNameInRow="GenderP" msprop:Generator_ColumnPropNameInTable="GenderPColumn" msprop:Generator_UserColumnName="GenderP" type="xs:string" minOccurs="0" />
+              <xs:element name="PhoneP" msprop:Generator_ColumnVarNameInTable="columnPhoneP" msprop:Generator_ColumnPropNameInRow="PhoneP" msprop:Generator_ColumnPropNameInTable="PhonePColumn" msprop:Generator_UserColumnName="PhoneP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

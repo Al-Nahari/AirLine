@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSFlight" targetNamespace="http://tempuri.org/DSFlight.xsd" xmlns:mstns="http://tempuri.org/DSFlight.xsd" xmlns="http://tempuri.org/DSFlight.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSFlight" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSFlight" msprop:Generator_UserDSName="DSFlight">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InfoFlight" msprop:Generator_TableClassName="InfoFlightDataTable" msprop:Generator_TableVarName="tableInfoFlight" msprop:Generator_TablePropName="InfoFlight" msprop:Generator_RowDeletingName="InfoFlightRowDeleting" msprop:Generator_RowChangingName="InfoFlightRowChanging" msprop:Generator_RowEvHandlerName="InfoFlightRowChangeEventHandler" msprop:Generator_RowDeletedName="InfoFlightRowDeleted" msprop:Generator_UserTableName="InfoFlight" msprop:Generator_RowChangedName="InfoFlightRowChanged" msprop:Generator_RowEvArgName="InfoFlightRowChangeEvent" msprop:Generator_RowClassName="InfoFlightRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodeF" msprop:Generator_ColumnVarNameInTable="columnCodeF" msprop:Generator_ColumnPropNameInRow="CodeF" msprop:Generator_ColumnPropNameInTable="CodeFColumn" msprop:Generator_UserColumnName="CodeF" type="xs:string" minOccurs="0" />
+              <xs:element name="FromF" msprop:Generator_ColumnVarNameInTable="columnFromF" msprop:Generator_ColumnPropNameInRow="FromF" msprop:Generator_ColumnPropNameInTable="FromFColumn" msprop:Generator_UserColumnName="FromF" type="xs:string" minOccurs="0" />
+              <xs:element name="ToF" msprop:Generator_ColumnVarNameInTable="columnToF" msprop:Generator_ColumnPropNameInRow="ToF" msprop:Generator_ColumnPropNameInTable="ToFColumn" msprop:Generator_UserColumnName="ToF" type="xs:string" minOccurs="0" />
+              <xs:element name="DateF" msprop:Generator_ColumnVarNameInTable="columnDateF" msprop:Generator_ColumnPropNameInRow="DateF" msprop:Generator_ColumnPropNameInTable="DateFColumn" msprop:Generator_UserColumnName="DateF" type="xs:string" minOccurs="0" />
+              <xs:element name="seats" msprop:Generator_ColumnVarNameInTable="columnseats" msprop:Generator_ColumnPropNameInRow="seats" msprop:Generator_ColumnPropNameInTable="seatsColumn" msprop:Generator_UserColumnName="seats" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
